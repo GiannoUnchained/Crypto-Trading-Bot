@@ -5,7 +5,12 @@ import plotly.express as px
 import numpy as np
 from datetime import datetime, timedelta
 import requests
-import config
+
+# Try to import config
+try:
+    import config
+except ImportError:
+    import config_template as config
 
 # Initialize session state
 if 'data_loaded' not in st.session_state:
