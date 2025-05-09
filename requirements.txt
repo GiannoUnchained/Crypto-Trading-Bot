@@ -1,5 +1,11 @@
 requests==2.31.0
-streamlit==1.31.0
+streamlit
+pandas
+plotly
+requests
+pushbullet
+python-dotenv
+numpylit==1.31.0
 pandas==2.1.4
 plotly==5.19.0
 numpy==1.26.4

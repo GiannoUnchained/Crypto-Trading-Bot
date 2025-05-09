@@ -1,0 +1,1 @@
+[server]\nport = 8501\nenableCORS = true\naddress = "0.0.0.0"\n\n[theme]\nprimaryColor = "#007bff"\nbackgroundColor = "#f8f9fa"\nsecondaryBackgroundColor = "#e9ecef"\ntextColor = "#333333"\nfont = "sans serif"
